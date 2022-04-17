@@ -1,0 +1,27 @@
+## Topnav single links
+## if you want to list an external url, use external_url instead of url. the theme will apply a different link base.
+topnav:
+- title: Topnav
+  items:
+    - title: Announcements
+      url: /news
+    - title: Discussions
+      external_url: https://github.com/mdolab/dafoam/discussions
+    - title: GitHub
+      external_url: https://github.com/mdolab/dafoam
+    - title: Slack
+      external_url: https://join.slack.com/t/dafoam/shared_invite/zt-rtjjj940-g1n4EZNkAoenxyi6Qb~hyw
+    - title: YouTube
+      external_url: https://www.youtube.com/channel/UCr9SKeQBuntzYf-3ubtfzmQ
+    
+
+#Topnav dropdowns
+#topnav_dropdowns:
+#- title: Topnav dropdowns
+#  folders:
+#    - title: External links
+#      folderitems:
+#        - title: OpenFOAM
+#          external_url: https://www.openfoam.com
+#        - title: Petsc
+#          external_url: https://www.mcs.anl.gov/petsc/

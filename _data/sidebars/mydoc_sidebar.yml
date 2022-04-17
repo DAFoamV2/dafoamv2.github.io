@@ -1,0 +1,255 @@
+# This is your sidebar TOC. The sidebar code loops through sections here and provides the appropriate formatting.
+
+entries:
+- title: sidebar
+  product: Documentation v2.2.10
+  version: 
+  folders:
+
+  - title:
+    output: pdf
+    type: frontmatter
+    folderitems:
+    - title:
+      url: /titlepage.html
+      output: pdf
+      type: frontmatter
+    - title:
+      url: /tocpage.html
+      output: pdf
+      type: frontmatter
+
+  - title: Get started
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /index.html
+      output: web, pdf
+      type: homepage
+
+    - title: Download docker image 
+      url: /mydoc_get_started_download_docker.html
+      output: web, pdf
+    
+    - title: Run optimization
+      url: /mydoc_get_started_run.html
+      output: web, pdf
+    
+    - title: Post-processing
+      url: /mydoc_get_started_post_processing.html
+      output: web, pdf
+    
+    - title: Details of run scripts
+      url: /mydoc_get_started_runscript.html
+      output: web, pdf
+    
+    - title: FAQ
+      url: /mydoc_get_started_faq.html
+      output: web, pdf
+
+  - title: Download
+    output: web, pdf
+    folderitems:
+  
+    - title: DAFoam-v2.2
+      url: /mydoc_download_v2.2.html
+      output: web, pdf
+
+    - title: DAFoam-v2.1
+      url: /mydoc_download_v2.1.html
+      output: web, pdf
+
+    - title: DAFoam-v2.0
+      url: /mydoc_download_v2.0.html
+      output: web, pdf
+    
+    - title: DAFoam-v1.1
+      url: /mydoc_download_v1.1.html
+      output: web, pdf
+    
+    - title: DAFoam-v1.0
+      url: /mydoc_download_v1.0.html
+      output: web, pdf
+
+  - title: Installation
+    output: web, pdf
+    folderitems:
+  
+    - title: Compile from source (Ubuntu)
+      url: /mydoc_installation_source.html
+      output: web, pdf
+    
+    - title: Compile from source (HPC)
+      url: /mydoc_installation_source_hpc.html
+      output: web, pdf
+    
+    - title: Build a new Docker image
+      url: /mydoc_installation_docker.html
+      output: web, pdf
+  
+  - title: Tutorials
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /mydoc_tutorials_overview.html
+      output: web, pdf
+
+      subfolders:
+      - title: Aerodynamics
+        output: web, pdf
+        subfolderitems:
+  
+        - title: NACA0012 airfoil (low speed)
+          url: /mydoc_tutorials_aero_naca0012_incompressible.html
+          output: web, pdf
+        
+        - title: NACA0012 airfoil (subsonic)
+          url: /mydoc_tutorials_aero_naca0012_subsonic.html
+          output: web, pdf
+        
+        - title: NACA0012 airfoil (transonic)
+          url: /mydoc_tutorials_aero_naca0012_transonic.html
+          output: web, pdf
+        
+        - title: NACA0012 airfoil (multipoint)
+          url: /mydoc_tutorials_aero_naca0012_multipoint.html
+          output: web, pdf
+        
+        - title: 30N30P multi-element airfoil
+          url: /mydoc_tutorials_aero_30n30p.html
+          output: web, pdf
+        
+        - title: Onera M6 wing
+          url: /mydoc_tutorials_aero_m6.html
+          output: web, pdf
+        
+        - title: CRM wing
+          url: /mydoc_tutorials_aero_crm.html
+          output: web, pdf
+        
+        - title: Prowim wing propeller
+          url: /mydoc_tutorials_aero_prowim_wing.html
+          output: web, pdf
+        
+        - title: DPW4 aircraft
+          url: /mydoc_tutorials_aero_dpw4.html
+          output: web, pdf
+        
+        - title: Rotor37 compressor
+          url: /mydoc_tutorials_aero_rotor37.html
+          output: web, pdf
+        
+        - title: NREL6 wind turbine
+          url: /mydoc_tutorials_aero_nrel6.html
+          output: web, pdf
+      
+      - title: Heat transfer
+        output: web, pdf
+        subfolderitems:
+
+        - title: U bend channel
+          url: /mydoc_tutorials_heat_ubend.html
+          output: web, pdf
+
+      - title: Solid mechanics
+        output: web, pdf
+        subfolderitems:
+  
+        - title: Plate hole
+          url: /mydoc_tutorials_struct_platehole.html
+          output: web, pdf
+
+      - title: Hydrodynamics
+        output: web, pdf
+        subfolderitems:
+  
+        - title: JBC hull
+          url: /mydoc_tutorials_hydro_jbc.html
+          output: web, pdf
+      
+      - title: Topology optimization
+        output: web, pdf
+        subfolderitems:
+  
+        - title: pitzDaily
+          url: /mydoc_tutorials_topo_pitzdaily.html
+          output: web, pdf
+  
+  - title: GUI
+    output: web, pdf
+    folderitems:
+
+    - title: Overview
+      url: /mydoc_gui_overview.html
+      output: web, pdf
+      
+    - title: Mesh Generation
+      url: /mydoc_gui_pvoptumesh.html
+      output: web, pdf
+    
+    - title: Airfoil optimization
+      url: /mydoc_gui_pvoptairfoil.html
+      output: web, pdf
+      
+    - title: Post Processing
+      url: /mydoc_gui_postprocessing.html
+      output: web, pdf
+  
+  - title: Verifications
+    output: web, pdf
+    folderitems:
+  
+    - title: Overview
+      url: /mydoc_verifications_overview.html
+      output: web, pdf
+
+    - title: DASimpleFoam
+      url: /mydoc_verifications_dasimplefoam.html
+      output: web, pdf
+    
+  - title: Validations
+    output: web, pdf
+    folderitems:
+  
+    - title: Overview
+      url: /mydoc_validations_overview.html
+      output: web, pdf
+
+    - title: RAE2822 airfoil
+      url: /mydoc_validations_rae2822.html
+      output: web, pdf
+    
+    - title: NACA0012 airfoil
+      url: /mydoc_validations_naca0012.html
+      output: web, pdf
+    
+    - title: Onera M6 wing
+      url: /mydoc_validations_onera_m6.html
+      output: web, pdf
+    
+    - title: Prowim wing propeller
+      url: /mydoc_validations_prowim.html
+      output: web, pdf
+
+  - title: Documents
+    output: web, pdf
+    folderitems:
+
+    - title: DAFoam doxygen
+      url: /mydoc_doxygen.html
+      output: web, pdf
+  
+    - title: Papers
+      url: /mydoc_docs_publications.html
+      output: web, pdf
+    
+    - title: User guides
+      url: /mydoc_docs_user_guides.html
+      output: web, pdf
+    
+    - title: Workshops
+      url: /mydoc_workshops.html
+      output: web, pdf
+
